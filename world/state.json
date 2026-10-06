@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 9,
-  "worldYear": 9,
+  "year": 10,
+  "worldYear": 10,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,17 +16,17 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 413,
+  "population": 417,
   "foundingPopulation": 414,
-  "food": 836,
-  "goods": 809,
-  "health": 100,
-  "order": 100,
+  "food": 615,
+  "goods": 893,
+  "health": 97,
+  "order": 98,
   "buildings": 1,
   "hasWriting": false,
   "extinct": false,
   "naming": {
-    "settlementName": null,
+    "settlementName": "潮灯坞",
     "selfName": null,
     "commonName": "海岸平原失联众",
     "nicknames": [
@@ -43,6 +43,11 @@
         "year": 9,
         "kind": "战争",
         "name": "裂塘军"
+      },
+      {
+        "year": 10,
+        "kind": "外号",
+        "name": "潮灯坞"
       }
     ]
   },
@@ -90,24 +95,25 @@
       }
     }
   ],
-  "politicalStage": "camp",
-  "settlementDepth": 9,
+  "politicalStage": "settled",
+  "settlementDepth": 10,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 27,
-  "memoryContinuity": 71,
+  "writingProgress": 30,
+  "memoryContinuity": 72,
   "politicalStress": 0,
-  "rngState": 323512714,
+  "rngState": 3035102685,
   "lastSettlement": {
-    "year": 9,
+    "year": 10,
     "populationBefore": 413,
-    "populationAfter": 413,
+    "populationAfter": 417,
     "eventIds": [
-      "quarrel-rations",
       "acc-storm",
       "fest-quiet",
-      "harvest-drying"
+      "harvest-granary",
+      "imm-boats",
+      "acc-storm"
     ]
   }
 }
