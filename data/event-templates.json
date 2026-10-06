@@ -1,0 +1,481 @@
+[
+  {
+    "id": "harvest-granary",
+    "title": "仓廪有余",
+    "category": "丰收",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": false }],
+    "baseWeight": 16,
+    "weightModifiers": [{ "when": "foodPlenty", "multiply": 2 }],
+    "consequences": { "foodPermilleOfPopulation": 400, "order": 3 }
+  },
+  {
+    "id": "harvest-second",
+    "title": "二熟",
+    "category": "丰收",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": false }],
+    "baseWeight": 12,
+    "weightModifiers": [{ "when": "foodPlenty", "multiply": 2 }],
+    "consequences": { "foodPermilleOfPopulation": 250 }
+  },
+  {
+    "id": "harvest-fishing",
+    "title": "渔汛",
+    "category": "丰收",
+    "level": "轻微",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": false }],
+    "baseWeight": 14,
+    "weightModifiers": [],
+    "consequences": { "foodPermilleOfPopulation": 200 }
+  },
+  {
+    "id": "harvest-scribe",
+    "title": "史官记下丰年",
+    "category": "丰收",
+    "level": "轻微",
+    "tags": ["scribe"],
+    "preconditions": [{ "key": "hasWriting", "equals": true }],
+    "baseWeight": 8,
+    "weightModifiers": [{ "when": "noWriting", "set": 0 }],
+    "consequences": { "order": 1 }
+  },
+  {
+    "id": "harvest-drying",
+    "title": "晒谷入仓",
+    "category": "丰收",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": false }],
+    "baseWeight": 10,
+    "weightModifiers": [{ "when": "foodPlenty", "add": 4 }],
+    "consequences": { "goods": 2, "foodPermilleOfPopulation": 150 }
+  },
+  {
+    "id": "shortage-gruel",
+    "title": "薄粥",
+    "category": "缺粮",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": true }],
+    "baseWeight": 18,
+    "weightModifiers": [],
+    "consequences": { "order": -4 }
+  },
+  {
+    "id": "shortage-empty",
+    "title": "空仓",
+    "category": "缺粮",
+    "level": "严重",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": true }],
+    "baseWeight": 14,
+    "weightModifiers": [],
+    "consequences": { "health": -5, "order": -3 }
+  },
+  {
+    "id": "shortage-seed",
+    "title": "种子被吃掉",
+    "category": "缺粮",
+    "level": "严重",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": true }],
+    "baseWeight": 10,
+    "weightModifiers": [],
+    "consequences": { "goods": -3, "health": -2 }
+  },
+  {
+    "id": "shortage-ration",
+    "title": "计口授粮",
+    "category": "缺粮",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": true }],
+    "baseWeight": 12,
+    "weightModifiers": [],
+    "consequences": { "order": 2, "health": -2 }
+  },
+  {
+    "id": "shortage-scribe",
+    "title": "史官记下饥年",
+    "category": "缺粮",
+    "level": "轻微",
+    "tags": ["scribe"],
+    "preconditions": [{ "key": "hasWriting", "equals": true }],
+    "baseWeight": 8,
+    "weightModifiers": [{ "when": "noWriting", "set": 0 }],
+    "consequences": { "order": -1 }
+  },
+  {
+    "id": "plague-fever",
+    "title": "船热",
+    "category": "瘟疫",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [],
+    "baseWeight": 5,
+    "weightModifiers": [
+      { "when": "foodShortage", "multiply": 5 },
+      { "when": "lowHealth", "multiply": 2 }
+    ],
+    "consequences": { "health": -8, "populationPermille": -15 }
+  },
+  {
+    "id": "plague-cough",
+    "title": "冬咳",
+    "category": "瘟疫",
+    "level": "轻微",
+    "tags": [],
+    "preconditions": [],
+    "baseWeight": 6,
+    "weightModifiers": [{ "when": "foodShortage", "multiply": 3 }],
+    "consequences": { "health": -4 }
+  },
+  {
+    "id": "plague-lanes",
+    "title": "疫病入巷",
+    "category": "瘟疫",
+    "level": "灾变",
+    "tags": [],
+    "preconditions": [],
+    "baseWeight": 4,
+    "weightModifiers": [
+      { "when": "foodShortage", "multiply": 6 },
+      { "when": "lowHealth", "multiply": 3 }
+    ],
+    "consequences": { "health": -12, "populationPermille": -25, "order": -4, "chain": true }
+  },
+  {
+    "id": "plague-ward",
+    "title": "隔离病舍",
+    "category": "瘟疫",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "lowHealth", "equals": true }],
+    "baseWeight": 5,
+    "weightModifiers": [{ "when": "foodShortage", "multiply": 2 }],
+    "consequences": { "health": 3, "order": -2, "goods": -2 }
+  },
+  {
+    "id": "plague-scribe",
+    "title": "史官记下疫病",
+    "category": "瘟疫",
+    "level": "轻微",
+    "tags": ["scribe"],
+    "preconditions": [{ "key": "hasWriting", "equals": true }],
+    "baseWeight": 8,
+    "weightModifiers": [{ "when": "noWriting", "set": 0 }],
+    "consequences": { "order": -1 }
+  },
+  {
+    "id": "quarrel-hearth",
+    "title": "火塘分裂",
+    "category": "争吵",
+    "level": "严重",
+    "tags": [],
+    "preconditions": [],
+    "baseWeight": 5,
+    "weightModifiers": [
+      { "when": "foodShortage", "multiply": 5 },
+      { "when": "lowOrder", "multiply": 3 }
+    ],
+    "consequences": { "order": -8 }
+  },
+  {
+    "id": "quarrel-rations",
+    "title": "争粮",
+    "category": "争吵",
+    "level": "灾变",
+    "tags": [],
+    "preconditions": [],
+    "baseWeight": 4,
+    "weightModifiers": [
+      { "when": "foodShortage", "multiply": 6 },
+      { "when": "lowOrder", "multiply": 2 }
+    ],
+    "consequences": {
+      "order": -6,
+      "health": -2,
+      "chain": true,
+      "naming": { "kind": "战争", "pool": "war" }
+    }
+  },
+  {
+    "id": "quarrel-elders",
+    "title": "长老失和",
+    "category": "争吵",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [],
+    "baseWeight": 6,
+    "weightModifiers": [{ "when": "lowOrder", "multiply": 2 }],
+    "consequences": { "order": -4 }
+  },
+  {
+    "id": "quarrel-peace",
+    "title": "讲和",
+    "category": "争吵",
+    "level": "轻微",
+    "tags": [],
+    "preconditions": [{ "key": "lowOrder", "equals": true }],
+    "baseWeight": 5,
+    "weightModifiers": [],
+    "consequences": { "order": 6 }
+  },
+  {
+    "id": "quarrel-scribe",
+    "title": "史官记下争讼",
+    "category": "争吵",
+    "level": "轻微",
+    "tags": ["scribe"],
+    "preconditions": [{ "key": "hasWriting", "equals": true }],
+    "baseWeight": 8,
+    "weightModifiers": [{ "when": "noWriting", "set": 0 }],
+    "consequences": { "order": 1 }
+  },
+  {
+    "id": "build-granary",
+    "title": "粮仓落成",
+    "category": "建成",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "goods", "gte": 8 }],
+    "baseWeight": 7,
+    "weightModifiers": [],
+    "consequences": { "goods": -8, "buildings": 1, "food": 40 }
+  },
+  {
+    "id": "build-shed",
+    "title": "棚屋落成",
+    "category": "建成",
+    "level": "轻微",
+    "tags": [],
+    "preconditions": [{ "key": "goods", "gte": 4 }],
+    "baseWeight": 8,
+    "weightModifiers": [],
+    "consequences": { "goods": -4, "buildings": 1, "order": 2 }
+  },
+  {
+    "id": "build-well",
+    "title": "井栏落成",
+    "category": "建成",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "goods", "gte": 6 }],
+    "baseWeight": 6,
+    "weightModifiers": [],
+    "consequences": {
+      "goods": -6,
+      "health": 4,
+      "buildings": 1,
+      "naming": { "kind": "改名", "pool": "rename" }
+    }
+  },
+  {
+    "id": "build-hall",
+    "title": "公厅落成",
+    "category": "建成",
+    "level": "严重",
+    "tags": [],
+    "preconditions": [
+      { "key": "goods", "gte": 12 },
+      { "key": "buildings", "gte": 2 }
+    ],
+    "baseWeight": 4,
+    "weightModifiers": [],
+    "consequences": {
+      "goods": -12,
+      "buildings": 1,
+      "order": 6
+    }
+  },
+  {
+    "id": "build-mark",
+    "title": "刻下记号",
+    "category": "建成",
+    "level": "轻微",
+    "tags": [],
+    "preconditions": [],
+    "baseWeight": 3,
+    "weightModifiers": [{ "when": "hasWriting", "set": 0 }],
+    "consequences": { "order": 1, "goods": -1 }
+  },
+  {
+    "id": "imm-boats",
+    "title": "新船靠岸",
+    "category": "迁入",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": false }],
+    "baseWeight": 7,
+    "weightModifiers": [{ "when": "foodPlenty", "add": 3 }],
+    "consequences": { "population": 4, "food": -12 }
+  },
+  {
+    "id": "imm-kin",
+    "title": "族人来投",
+    "category": "迁入",
+    "level": "轻微",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": false }],
+    "baseWeight": 6,
+    "weightModifiers": [],
+    "consequences": { "population": 3, "food": -8 }
+  },
+  {
+    "id": "imm-refugees",
+    "title": "避难者入港",
+    "category": "迁入",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": false }],
+    "baseWeight": 5,
+    "weightModifiers": [],
+    "consequences": { "population": 5, "food": -16, "health": -2 }
+  },
+  {
+    "id": "imm-craft",
+    "title": "匠人登岸",
+    "category": "迁入",
+    "level": "轻微",
+    "tags": [],
+    "preconditions": [
+      { "key": "foodShortage", "equals": false },
+      { "key": "goods", "gte": 2 }
+    ],
+    "baseWeight": 4,
+    "weightModifiers": [],
+    "consequences": {
+      "population": 2,
+      "goods": 3,
+      "naming": { "kind": "贸易", "pool": "trade" }
+    }
+  },
+  {
+    "id": "imm-return",
+    "title": "出海的人回来",
+    "category": "迁入",
+    "level": "轻微",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": false }],
+    "baseWeight": 5,
+    "weightModifiers": [],
+    "consequences": { "population": 2, "order": 2 }
+  },
+  {
+    "id": "fest-hearth",
+    "title": "火塘夜",
+    "category": "庆典",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": false }],
+    "baseWeight": 10,
+    "weightModifiers": [],
+    "consequences": { "order": 5 }
+  },
+  {
+    "id": "fest-tasting",
+    "title": "尝新",
+    "category": "庆典",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [{ "key": "foodPlenty", "equals": true }],
+    "baseWeight": 8,
+    "weightModifiers": [],
+    "consequences": { "order": 4, "food": -8 }
+  },
+  {
+    "id": "fest-launch",
+    "title": "新船下水",
+    "category": "庆典",
+    "level": "轻微",
+    "tags": [],
+    "preconditions": [
+      { "key": "buildings", "gte": 1 },
+      { "key": "foodShortage", "equals": false }
+    ],
+    "baseWeight": 5,
+    "weightModifiers": [],
+    "consequences": { "order": 3 }
+  },
+  {
+    "id": "fest-quiet",
+    "title": "静夜",
+    "category": "庆典",
+    "level": "轻微",
+    "tags": [],
+    "preconditions": [{ "key": "foodShortage", "equals": false }],
+    "baseWeight": 7,
+    "weightModifiers": [],
+    "consequences": { "order": 1 }
+  },
+  {
+    "id": "fest-scribe",
+    "title": "史官记下庆典",
+    "category": "庆典",
+    "level": "轻微",
+    "tags": ["scribe"],
+    "preconditions": [{ "key": "hasWriting", "equals": true }],
+    "baseWeight": 8,
+    "weightModifiers": [{ "when": "noWriting", "set": 0 }],
+    "consequences": { "order": 2 }
+  },
+  {
+    "id": "acc-storm",
+    "title": "夜航风暴",
+    "category": "事故",
+    "level": "严重",
+    "tags": [],
+    "preconditions": [],
+    "baseWeight": 8,
+    "weightModifiers": [],
+    "consequences": { "health": -3, "foodPermilleOfPopulation": -100, "order": -2 }
+  },
+  {
+    "id": "acc-fire",
+    "title": "棚火",
+    "category": "事故",
+    "level": "灾变",
+    "tags": [],
+    "preconditions": [{ "key": "buildings", "gte": 1 }],
+    "baseWeight": 4,
+    "weightModifiers": [{ "when": "foodShortage", "multiply": 2 }],
+    "consequences": { "buildings": -1, "goods": -4, "order": -3, "chain": true }
+  },
+  {
+    "id": "acc-hull",
+    "title": "船破",
+    "category": "事故",
+    "level": "寻常",
+    "tags": [],
+    "preconditions": [],
+    "baseWeight": 7,
+    "weightModifiers": [],
+    "consequences": { "population": -1, "goods": -2 }
+  },
+  {
+    "id": "acc-granary",
+    "title": "仓倒",
+    "category": "事故",
+    "level": "严重",
+    "tags": [],
+    "preconditions": [{ "key": "buildings", "gte": 1 }],
+    "baseWeight": 4,
+    "weightModifiers": [{ "when": "foodShortage", "multiply": 2 }],
+    "consequences": { "foodPermilleOfPopulation": -200 }
+  },
+  {
+    "id": "acc-injury",
+    "title": "工伤",
+    "category": "事故",
+    "level": "轻微",
+    "tags": [],
+    "preconditions": [],
+    "baseWeight": 8,
+    "weightModifiers": [],
+    "consequences": { "health": -3 }
+  }
+]

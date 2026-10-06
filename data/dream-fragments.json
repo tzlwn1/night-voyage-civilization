@@ -1,0 +1,157 @@
+{
+  "manifestChance": 42,
+  "openings": [
+    "夜潮退去，营地沉入一片发亮的静。",
+    "星潮在远处起伏，火塘只剩一点余温。",
+    "海风从舱缝钻进来，把梦轻轻推醒。",
+    "众人睡去后，营地像一艘缓慢呼吸的船。"
+  ],
+  "tags": {
+    "缺粮": {
+      "dayTransform": [
+        "白日里见过的{event}，在梦里变成空瓮与薄粥。",
+        "粮袋在梦里漏个不停，谁伸手都接不住。",
+        "{event}化作干裂的田垄，穗子一碰就碎。"
+      ],
+      "symbol": [
+        "象征物是漏底的陶瓮。",
+        "象征物是倒扣的空仓门。",
+        "象征物是一串怎么也数不清的粮粒。"
+      ],
+      "reaction": [
+        "众人围着火塘低声商量，却不敢先开口。",
+        "长老把粥勺举起又放下，谁都不愿先喝。",
+        "孩子把碗推给老人，梦里也无人敢争。"
+      ],
+      "wake": [
+        "醒后有人说：宁可少一口，也要让明日有粮。",
+        "醒后只留下一句：先保种，再保口。",
+        "醒后众人记住：饿时最忌乱。"
+      ],
+      "manifests": {
+        "law": { "title": "均粮梦律", "foodProductionPermille": 80, "shortageWeightPermille": 850 },
+        "festival": { "title": "存粮夜", "foodProductionPermille": 50 },
+        "taboo": { "title": "禁浪掷粮", "shortageWeightPermille": 700, "harvestWeightPermille": 1150 }
+      },
+      "kindWeights": { "law": 45, "festival": 25, "taboo": 30 }
+    },
+    "争吵": {
+      "dayTransform": [
+        "白日里的{event}，在梦里变成彼此背对的影子。",
+        "火塘分裂成两半，谁跨过去都像越界。",
+        "{event}化作争响的铜勺，敲得人心烦。"
+      ],
+      "symbol": [
+        "象征物是裂开的木案。",
+        "象征物是两盏背向的灯。",
+        "象征物是缠死的绳结。"
+      ],
+      "reaction": [
+        "梦里有人劝和，话却一句也传不过去。",
+        "众人轮流开口，声音却叠成一片噪响。",
+        "最年长者举手，仍挡不住互相指责。"
+      ],
+      "wake": [
+        "醒后有人说：先分粮，再分理。",
+        "醒后只留下一句：吵时别碰火。",
+        "醒后众人记住：争粮不如争礼。"
+      ],
+      "manifests": {
+        "law": { "title": "火塘讲律", "quarrelWeightPermille": 750, "orderPerMonth": 1 },
+        "festival": { "title": "息争夜", "orderPerMonth": 2 },
+        "taboo": { "title": "禁夜讼", "quarrelWeightPermille": 650 }
+      },
+      "kindWeights": { "law": 40, "festival": 30, "taboo": 30 }
+    },
+    "低落": {
+      "dayTransform": [
+        "白日里的疲惫，在梦里变成抬不动的潮。",
+        "众人走路都像陷在软泥里，话也懒得说。",
+        "{event}化作低垂的帆，怎么也拉不起来。"
+      ],
+      "symbol": [
+        "象征物是熄了一半的灯芯。",
+        "象征物是湿冷的毯角。",
+        "象征物是迟迟不落的海雾。"
+      ],
+      "reaction": [
+        "梦里无人唱歌，连海风也轻得几乎听不见。",
+        "有人想振作，却连抬手的力气都没有。",
+        "火塘还燃着，大家只是默默围坐。"
+      ],
+      "wake": [
+        "醒后有人说：先暖身，再做事。",
+        "醒后只留下一句：低落时别独行。",
+        "醒后众人记住：慢一步，也别散。"
+      ],
+      "manifests": {
+        "law": { "title": "养息律", "healthPerMonth": 1, "orderPerMonth": 1 },
+        "festival": { "title": "暖灯夜", "orderPerMonth": 2, "healthPerMonth": 1 },
+        "taboo": { "title": "禁夜劳", "deathPer10k": -8 }
+      },
+      "kindWeights": { "law": 30, "festival": 45, "taboo": 25 }
+    },
+    "建成": {
+      "dayTransform": [
+        "白日里的{event}，在梦里变成更高的梁柱。",
+        "新筑在梦里不断长高，像要接住星潮。",
+        "{event}化作整齐排列的石础，稳得惊人。"
+      ],
+      "symbol": [
+        "象征物是刚削好的木梁。",
+        "象征物是叠好的瓦片。",
+        "象征物是系紧的缆桩。"
+      ],
+      "reaction": [
+        "众人梦里协力抬梁，竟不觉得重。",
+        "孩子绕着新筑奔跑，笑声压过潮声。",
+        "长老指着高处，说这里该留名。"
+      ],
+      "wake": [
+        "醒后有人说：先立架，再立号。",
+        "醒后只留下一句：建成时要记功。",
+        "醒后众人记住：架稳了，心才稳。"
+      ],
+      "manifests": {
+        "law": { "title": "工成律", "buildEventWeightAdd": 4, "goodsPerMonth": 1 },
+        "festival": { "title": "上梁夜", "buildEventWeightAdd": 2, "orderPerMonth": 1 },
+        "taboo": { "title": "禁毁新筑", "accidentWeightPermille": 800 }
+      },
+      "kindWeights": { "law": 35, "festival": 35, "taboo": 30 }
+    },
+    "人口增长": {
+      "dayTransform": [
+        "白日里新来的人影，在梦里排成长队靠岸。",
+        "摇篮声与锤声交织，营地像突然变大。",
+        "{event}化作不断添席的火塘。"
+      ],
+      "symbol": [
+        "象征物是多出来的草席。",
+        "象征物是系在码头的新缆。",
+        "象征物是一只只递过来的碗。"
+      ],
+      "reaction": [
+        "梦里众人忙着分席，却没人抱怨拥挤。",
+        "老人教孩子认路，怕新来的人走丢。",
+        "火塘添了柴，仿佛也添了力气。"
+      ],
+      "wake": [
+        "醒后有人说：人多时更要分粮。",
+        "醒后只留下一句：添人先添规矩。",
+        "醒后众人记住：增长要接得住。"
+      ],
+      "manifests": {
+        "law": { "title": "添口律", "birthPer10k": 12 },
+        "festival": { "title": "迎新夜", "birthPer10k": 8, "orderPerMonth": 1 },
+        "taboo": { "title": "禁弃来客", "immigrationWeightPermille": 1200 }
+      },
+      "kindWeights": { "law": 35, "festival": 40, "taboo": 25 }
+    }
+  },
+  "categoryToTag": {
+    "缺粮": "缺粮",
+    "争吵": "争吵",
+    "建成": "建成",
+    "迁入": "人口增长"
+  }
+}

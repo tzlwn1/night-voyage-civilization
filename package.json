@@ -1,0 +1,21 @@
+{
+  "name": "night-voyage-civilization",
+  "version": "0.1.0",
+  "private": true,
+  "description": "夜航文明：可种子化的自演化文明模拟",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "simulate": "tsx engine/cli.ts",
+    "advance": "tsx engine/advance-cli.ts",
+    "genesis": "tsx engine/genesis-cli.ts",
+    "test": "tsx --test engine/rng.test.ts engine/state.test.ts engine/genesis.test.ts engine/simulate.test.ts engine/settlement.test.ts engine/chronicle.test.ts engine/dream.test.ts engine/succession.test.ts engine/advance.test.ts engine/timelines.test.ts engine/policy.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.68",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

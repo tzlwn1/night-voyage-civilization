@@ -1,0 +1,36 @@
+name: Advance civilization
+
+# 仅 schedule 与 workflow_dispatch；不设 push 触发，避免自动提交再次拉起本工作流（防递归）。
+on:
+  schedule:
+    # 北京时间每天 02:20（Asia/Shanghai；GitHub cron 使用 UTC，对应 18:20）
+    - cron: "20 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: advance-civilization
+  cancel-in-progress: false
+
+jobs:
+  advance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Advance active timelines
+        run: bash scripts/advance-timelines.sh

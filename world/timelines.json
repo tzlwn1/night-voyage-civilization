@@ -1,0 +1,11 @@
+{
+  "timelines": [
+    {
+      "id": "night-main",
+      "branch": "main",
+      "seed": "b6ce2af2224016debeb675a8d7b4f323",
+      "active": true,
+      "notes": "当前唯一主线时间线。平行宇宙分支与并行上限尚未启用；新增时间线前请先约定 branch/seed 与是否 active。"
+    }
+  ]
+}
