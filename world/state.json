@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 8,
-  "worldYear": 8,
+  "year": 9,
+  "worldYear": 9,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -18,8 +18,8 @@
   "origin": "forgotten-colony",
   "population": 413,
   "foundingPopulation": 414,
-  "food": 929,
-  "goods": 723,
+  "food": 836,
+  "goods": 809,
   "health": 100,
   "order": 100,
   "buildings": 1,
@@ -30,13 +30,19 @@
     "selfName": null,
     "commonName": "海岸平原失联众",
     "nicknames": [
-      "锋潮营"
+      "锋潮营",
+      "裂塘军"
     ],
     "aliases": [
       {
         "year": 8,
         "kind": "战争",
         "name": "锋潮营"
+      },
+      {
+        "year": 9,
+        "kind": "战争",
+        "name": "裂塘军"
       }
     ]
   },
@@ -85,20 +91,23 @@
     }
   ],
   "politicalStage": "camp",
-  "settlementDepth": 8,
+  "settlementDepth": 9,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 24,
-  "memoryContinuity": 70,
+  "writingProgress": 27,
+  "memoryContinuity": 71,
   "politicalStress": 0,
-  "rngState": 3738455852,
+  "rngState": 323512714,
   "lastSettlement": {
-    "year": 8,
+    "year": 9,
     "populationBefore": 413,
     "populationAfter": 413,
     "eventIds": [
-      "quarrel-rations"
+      "quarrel-rations",
+      "acc-storm",
+      "fest-quiet",
+      "harvest-drying"
     ]
   }
 }
