@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 0,
-  "worldYear": 0,
+  "year": 1,
+  "worldYear": 1,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,12 +16,12 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 414,
+  "population": 418,
   "foundingPopulation": 414,
-  "food": 828,
-  "goods": 12,
-  "health": 80,
-  "order": 75,
+  "food": 763,
+  "goods": 108,
+  "health": 86,
+  "order": 79,
   "buildings": 0,
   "hasWriting": false,
   "extinct": false,
@@ -32,15 +32,48 @@
     "nicknames": [],
     "aliases": []
   },
-  "dreamInstitutions": [],
+  "dreamInstitutions": [
+    {
+      "id": "1-人口增长-festival",
+      "kind": "festival",
+      "tag": "人口增长",
+      "title": "迎新夜",
+      "enactedYear": 1,
+      "effects": {
+        "foodProductionPermille": 1000,
+        "birthPer10k": 8,
+        "deathPer10k": 0,
+        "orderPerMonth": 1,
+        "healthPerMonth": 0,
+        "goodsPerMonth": 0,
+        "buildEventWeightAdd": 0,
+        "shortageWeightPermille": 1000,
+        "harvestWeightPermille": 1000,
+        "quarrelWeightPermille": 1000,
+        "accidentWeightPermille": 1000,
+        "immigrationWeightPermille": 1000
+      }
+    }
+  ],
   "politicalStage": "camp",
-  "settlementDepth": 0,
+  "settlementDepth": 1,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 0,
-  "memoryContinuity": 62,
+  "writingProgress": 3,
+  "memoryContinuity": 63,
   "politicalStress": 0,
-  "rngState": 2001136436,
-  "lastSettlement": null
+  "rngState": 1049594781,
+  "lastSettlement": {
+    "year": 1,
+    "populationBefore": 414,
+    "populationAfter": 418,
+    "eventIds": [
+      "harvest-fishing",
+      "imm-boats",
+      "acc-storm",
+      "quarrel-elders",
+      "acc-storm"
+    ]
+  }
 }
