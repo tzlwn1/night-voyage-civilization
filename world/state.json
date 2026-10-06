@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 7,
-  "worldYear": 7,
+  "year": 8,
+  "worldYear": 8,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -18,8 +18,8 @@
   "origin": "forgotten-colony",
   "population": 413,
   "foundingPopulation": 414,
-  "food": 902,
-  "goods": 639,
+  "food": 929,
+  "goods": 723,
   "health": 100,
   "order": 100,
   "buildings": 1,
@@ -29,8 +29,16 @@
     "settlementName": null,
     "selfName": null,
     "commonName": "海岸平原失联众",
-    "nicknames": [],
-    "aliases": []
+    "nicknames": [
+      "锋潮营"
+    ],
+    "aliases": [
+      {
+        "year": 8,
+        "kind": "战争",
+        "name": "锋潮营"
+      }
+    ]
   },
   "dreamInstitutions": [
     {
@@ -53,26 +61,44 @@
         "accidentWeightPermille": 1000,
         "immigrationWeightPermille": 1000
       }
+    },
+    {
+      "id": "8-争吵-festival",
+      "kind": "festival",
+      "tag": "争吵",
+      "title": "息争夜",
+      "enactedYear": 8,
+      "effects": {
+        "foodProductionPermille": 1000,
+        "birthPer10k": 0,
+        "deathPer10k": 0,
+        "orderPerMonth": 2,
+        "healthPerMonth": 0,
+        "goodsPerMonth": 0,
+        "buildEventWeightAdd": 0,
+        "shortageWeightPermille": 1000,
+        "harvestWeightPermille": 1000,
+        "quarrelWeightPermille": 1000,
+        "accidentWeightPermille": 1000,
+        "immigrationWeightPermille": 1000
+      }
     }
   ],
   "politicalStage": "camp",
-  "settlementDepth": 7,
+  "settlementDepth": 8,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 21,
-  "memoryContinuity": 69,
+  "writingProgress": 24,
+  "memoryContinuity": 70,
   "politicalStress": 0,
-  "rngState": 2226596024,
+  "rngState": 3738455852,
   "lastSettlement": {
-    "year": 7,
-    "populationBefore": 409,
+    "year": 8,
+    "populationBefore": 413,
     "populationAfter": 413,
     "eventIds": [
-      "harvest-fishing",
-      "harvest-second",
-      "imm-boats",
-      "acc-granary"
+      "quarrel-rations"
     ]
   }
 }
