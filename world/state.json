@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 3,
-  "worldYear": 3,
+  "year": 4,
+  "worldYear": 4,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -18,11 +18,11 @@
   "origin": "forgotten-colony",
   "population": 420,
   "foundingPopulation": 414,
-  "food": 939,
-  "goods": 298,
-  "health": 93,
+  "food": 885,
+  "goods": 387,
+  "health": 100,
   "order": 100,
-  "buildings": 0,
+  "buildings": 1,
   "hasWriting": false,
   "extinct": false,
   "naming": {
@@ -56,23 +56,21 @@
     }
   ],
   "politicalStage": "camp",
-  "settlementDepth": 3,
+  "settlementDepth": 4,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 9,
-  "memoryContinuity": 65,
+  "writingProgress": 12,
+  "memoryContinuity": 66,
   "politicalStress": 0,
-  "rngState": 2873584294,
+  "rngState": 3185713979,
   "lastSettlement": {
-    "year": 3,
-    "populationBefore": 416,
+    "year": 4,
+    "populationBefore": 420,
     "populationAfter": 420,
     "eventIds": [
-      "imm-refugees",
-      "acc-injury",
-      "acc-hull",
-      "harvest-second"
+      "build-shed",
+      "fest-tasting"
     ]
   }
 }
