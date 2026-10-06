@@ -3,13 +3,13 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 17,
-  "worldYear": 17,
+  "year": 18,
+  "worldYear": 18,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
   "voidRemaining": 0,
-  "famineYears": 2,
+  "famineYears": 0,
   "sparseYears": 0,
   "pendingSuccession": null,
   "predecessorSnapshot": null,
@@ -18,11 +18,11 @@
   "origin": "forgotten-colony",
   "population": 399,
   "foundingPopulation": 414,
-  "food": 317,
-  "goods": 1458,
-  "health": 64,
-  "order": 100,
-  "buildings": 2,
+  "food": 652,
+  "goods": 1529,
+  "health": 76,
+  "order": 96,
+  "buildings": 1,
   "hasWriting": false,
   "extinct": false,
   "naming": {
@@ -32,7 +32,8 @@
     "nicknames": [
       "锋潮营",
       "裂塘军",
-      "帆约名"
+      "帆约名",
+      "港联号"
     ],
     "aliases": [
       {
@@ -59,6 +60,11 @@
         "year": 14,
         "kind": "战争",
         "name": "裂塘军"
+      },
+      {
+        "year": 18,
+        "kind": "贸易",
+        "name": "港联号"
       }
     ]
   },
@@ -107,30 +113,25 @@
     }
   ],
   "politicalStage": "settled",
-  "settlementDepth": 17,
+  "settlementDepth": 18,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 688,
-  "memoryContinuity": 73,
-  "politicalStress": 4,
-  "rngState": 2357809215,
+  "writingProgress": 803,
+  "memoryContinuity": 74,
+  "politicalStress": 2,
+  "rngState": 1846279639,
   "lastSettlement": {
-    "year": 17,
-    "populationBefore": 415,
+    "year": 18,
+    "populationBefore": 399,
     "populationAfter": 399,
     "eventIds": [
-      "plague-cough",
       "shortage-gruel",
-      "shortage-empty",
-      "acc-fire",
-      "shortage-ration",
       "fest-quiet",
-      "shortage-gruel",
-      "build-granary",
-      "shortage-empty",
-      "shortage-empty",
-      "plague-fever"
+      "harvest-granary",
+      "acc-fire",
+      "imm-craft",
+      "quarrel-elders"
     ]
   }
 }
