@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 24,
-  "worldYear": 24,
+  "year": 25,
+  "worldYear": 25,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,11 +16,11 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 465,
+  "population": 476,
   "foundingPopulation": 414,
-  "food": 1475,
-  "goods": 1989,
-  "health": 97,
+  "food": 1518,
+  "goods": 2082,
+  "health": 100,
   "order": 100,
   "buildings": 6,
   "hasWriting": false,
@@ -33,7 +33,8 @@
       "锋潮营",
       "裂塘军",
       "帆约名",
-      "港联号"
+      "港联号",
+      "铁火部"
     ],
     "aliases": [
       {
@@ -65,6 +66,11 @@
         "year": 18,
         "kind": "贸易",
         "name": "港联号"
+      },
+      {
+        "year": 25,
+        "kind": "战争",
+        "name": "铁火部"
       }
     ]
   },
@@ -89,54 +95,33 @@
         "accidentWeightPermille": 1000,
         "immigrationWeightPermille": 1000
       }
-    },
-    {
-      "id": "8-争吵-festival",
-      "kind": "festival",
-      "tag": "争吵",
-      "title": "息争夜",
-      "enactedYear": 8,
-      "effects": {
-        "foodProductionPermille": 1000,
-        "birthPer10k": 0,
-        "deathPer10k": 0,
-        "orderPerMonth": 2,
-        "healthPerMonth": 0,
-        "goodsPerMonth": 0,
-        "buildEventWeightAdd": 0,
-        "shortageWeightPermille": 1000,
-        "harvestWeightPermille": 1000,
-        "quarrelWeightPermille": 1000,
-        "accidentWeightPermille": 1000,
-        "immigrationWeightPermille": 1000
-      }
     }
   ],
   "politicalStage": "settled",
-  "settlementDepth": 24,
+  "settlementDepth": 25,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 1657,
-  "memoryContinuity": 80,
+  "writingProgress": 1822,
+  "memoryContinuity": 81,
   "politicalStress": 0,
-  "rngState": 168655917,
+  "rngState": 1488692154,
   "lastSettlement": {
-    "year": 24,
-    "populationBefore": 436,
-    "populationAfter": 465,
+    "year": 25,
+    "populationBefore": 465,
+    "populationAfter": 476,
     "eventIds": [
+      "quarrel-rations",
+      "fest-tasting",
       "fest-hearth",
-      "harvest-drying",
-      "imm-return",
-      "imm-kin",
-      "imm-refugees",
-      "acc-fire",
-      "harvest-fishing",
-      "fest-launch",
-      "imm-return",
+      "fest-hearth",
+      "build-mark",
       "acc-storm",
-      "imm-refugees"
+      "fest-launch",
+      "acc-hull",
+      "harvest-granary",
+      "fest-hearth",
+      "harvest-granary"
     ]
   }
 }
