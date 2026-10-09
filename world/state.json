@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 49,
-  "worldYear": 49,
+  "year": 50,
+  "worldYear": 50,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,12 +16,12 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 514,
+  "population": 518,
   "foundingPopulation": 414,
-  "food": 8806,
-  "goods": 4232,
-  "health": 100,
-  "order": 100,
+  "food": 9357,
+  "goods": 4319,
+  "health": 98,
+  "order": 95,
   "buildings": 18,
   "hasWriting": false,
   "extinct": false,
@@ -36,7 +36,8 @@
       "港联号",
       "铁火部",
       "潮市名",
-      "断缆众"
+      "断缆众",
+      "夜战盟"
     ],
     "aliases": [
       {
@@ -98,29 +99,39 @@
         "year": 42,
         "kind": "战争",
         "name": "断缆众"
+      },
+      {
+        "year": 50,
+        "kind": "战争",
+        "name": "夜战盟"
       }
     ]
   },
   "dreamInstitutions": [],
   "politicalStage": "settled",
-  "settlementDepth": 49,
+  "settlementDepth": 50,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 8032,
+  "writingProgress": 8381,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 528659493,
+  "rngState": 648965587,
   "lastSettlement": {
-    "year": 49,
+    "year": 50,
     "populationBefore": 514,
-    "populationAfter": 514,
+    "populationAfter": 518,
     "eventIds": [
+      "harvest-second",
+      "quarrel-hearth",
+      "harvest-second",
+      "harvest-drying",
+      "harvest-fishing",
+      "imm-boats",
       "harvest-drying",
       "harvest-granary",
-      "harvest-granary",
-      "harvest-second",
-      "harvest-drying"
+      "quarrel-rations",
+      "build-mark"
     ]
   }
 }
