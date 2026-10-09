@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 40,
-  "worldYear": 40,
+  "year": 41,
+  "worldYear": 41,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,11 +16,11 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 504,
+  "population": 500,
   "foundingPopulation": 414,
-  "food": 6535,
-  "goods": 3464,
-  "health": 95,
+  "food": 7307,
+  "goods": 3557,
+  "health": 90,
   "order": 100,
   "buildings": 13,
   "hasWriting": false,
@@ -87,28 +87,41 @@
         "year": 38,
         "kind": "贸易",
         "name": "帆约名"
+      },
+      {
+        "year": 41,
+        "kind": "战争",
+        "name": "铁火部"
       }
     ]
   },
   "dreamInstitutions": [],
   "politicalStage": "settled",
-  "settlementDepth": 40,
+  "settlementDepth": 41,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 5206,
-  "memoryContinuity": 96,
+  "writingProgress": 5491,
+  "memoryContinuity": 97,
   "politicalStress": 0,
-  "rngState": 453811199,
+  "rngState": 4237248919,
   "lastSettlement": {
-    "year": 40,
+    "year": 41,
     "populationBefore": 504,
-    "populationAfter": 504,
+    "populationAfter": 500,
     "eventIds": [
+      "harvest-fishing",
       "acc-injury",
+      "plague-lanes",
+      "harvest-fishing",
+      "quarrel-rations",
       "harvest-granary",
-      "fest-launch",
-      "harvest-drying"
+      "imm-return",
+      "harvest-fishing",
+      "harvest-fishing",
+      "harvest-drying",
+      "harvest-granary",
+      "fest-quiet"
     ]
   }
 }
