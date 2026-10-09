@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 41,
-  "worldYear": 41,
+  "year": 42,
+  "worldYear": 42,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,13 +16,13 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 500,
+  "population": 493,
   "foundingPopulation": 414,
-  "food": 7307,
-  "goods": 3557,
-  "health": 90,
-  "order": 100,
-  "buildings": 13,
+  "food": 7593,
+  "goods": 3639,
+  "health": 88,
+  "order": 96,
+  "buildings": 14,
   "hasWriting": false,
   "extinct": false,
   "naming": {
@@ -35,7 +35,8 @@
       "帆约名",
       "港联号",
       "铁火部",
-      "潮市名"
+      "潮市名",
+      "断缆众"
     ],
     "aliases": [
       {
@@ -92,36 +93,41 @@
         "year": 41,
         "kind": "战争",
         "name": "铁火部"
+      },
+      {
+        "year": 42,
+        "kind": "战争",
+        "name": "断缆众"
       }
     ]
   },
   "dreamInstitutions": [],
   "politicalStage": "settled",
-  "settlementDepth": 41,
+  "settlementDepth": 42,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 5491,
-  "memoryContinuity": 97,
+  "writingProgress": 5783,
+  "memoryContinuity": 98,
   "politicalStress": 0,
-  "rngState": 4237248919,
+  "rngState": 3725719343,
   "lastSettlement": {
-    "year": 41,
-    "populationBefore": 504,
-    "populationAfter": 500,
+    "year": 42,
+    "populationBefore": 500,
+    "populationAfter": 493,
     "eventIds": [
-      "harvest-fishing",
-      "acc-injury",
+      "harvest-second",
+      "build-mark",
+      "fest-tasting",
+      "harvest-second",
+      "build-granary",
+      "fest-hearth",
       "plague-lanes",
-      "harvest-fishing",
       "quarrel-rations",
+      "acc-hull",
+      "fest-hearth",
       "harvest-granary",
-      "imm-return",
-      "harvest-fishing",
-      "harvest-fishing",
-      "harvest-drying",
-      "harvest-granary",
-      "fest-quiet"
+      "quarrel-elders"
     ]
   }
 }
