@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 64,
-  "worldYear": 64,
+  "year": 65,
+  "worldYear": 65,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -18,10 +18,10 @@
   "origin": "forgotten-colony",
   "population": 548,
   "foundingPopulation": 414,
-  "food": 13182,
-  "goods": 5458,
+  "food": 13614,
+  "goods": 5542,
   "health": 100,
-  "order": 100,
+  "order": 89,
   "buildings": 22,
   "hasWriting": false,
   "extinct": false,
@@ -115,6 +115,11 @@
         "year": 58,
         "kind": "贸易",
         "name": "舶来称"
+      },
+      {
+        "year": 65,
+        "kind": "战争",
+        "name": "锋潮营"
       }
     ]
   },
@@ -142,29 +147,27 @@
     }
   ],
   "politicalStage": "settled",
-  "settlementDepth": 64,
+  "settlementDepth": 65,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 13963,
+  "writingProgress": 14408,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 1453226745,
+  "rngState": 4036934322,
   "lastSettlement": {
-    "year": 64,
-    "populationBefore": 537,
+    "year": 65,
+    "populationBefore": 548,
     "populationAfter": 548,
     "eventIds": [
-      "quarrel-elders",
-      "imm-kin",
-      "build-mark",
-      "harvest-fishing",
-      "imm-boats",
-      "imm-boats",
-      "build-granary",
+      "fest-quiet",
+      "acc-storm",
       "harvest-second",
-      "harvest-granary",
-      "harvest-fishing"
+      "fest-quiet",
+      "harvest-second",
+      "quarrel-rations",
+      "quarrel-hearth",
+      "harvest-second"
     ]
   }
 }
