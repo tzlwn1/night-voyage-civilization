@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 80,
-  "worldYear": 80,
+  "year": 81,
+  "worldYear": 81,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,11 +16,11 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 552,
+  "population": 559,
   "foundingPopulation": 414,
-  "food": 15509,
-  "goods": 6810,
-  "health": 90,
+  "food": 15752,
+  "goods": 6899,
+  "health": 100,
   "order": 100,
   "buildings": 29,
   "hasWriting": false,
@@ -146,6 +146,11 @@
         "year": 78,
         "kind": "战争",
         "name": "夜战盟"
+      },
+      {
+        "year": 81,
+        "kind": "贸易",
+        "name": "舶来称"
       }
     ]
   },
@@ -173,27 +178,24 @@
     }
   ],
   "politicalStage": "settled",
-  "settlementDepth": 80,
+  "settlementDepth": 81,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 21881,
+  "writingProgress": 22427,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 2874170973,
+  "rngState": 4258148407,
   "lastSettlement": {
-    "year": 80,
-    "populationBefore": 550,
-    "populationAfter": 552,
+    "year": 81,
+    "populationBefore": 552,
+    "populationAfter": 559,
     "eventIds": [
-      "harvest-fishing",
-      "harvest-second",
-      "acc-fire",
+      "harvest-drying",
+      "fest-tasting",
       "fest-hearth",
-      "quarrel-elders",
-      "build-well",
-      "build-well",
-      "plague-cough"
+      "imm-boats",
+      "imm-craft"
     ]
   }
 }
