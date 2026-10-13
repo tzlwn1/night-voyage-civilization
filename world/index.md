@@ -36,8 +36,8 @@
 ## 编年入口
 
 - [仓库首页](../README.md)
-- [第 83 年](../chronicle/civ-001/0083.md)
+- [第 84 年](../chronicle/civ-001/0084.md)
 - [编年目录](../chronicle/civ-001/)
 - 文明总录: （存续中，灭亡后生成 annals.md）
 
-种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 83
+种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 84
