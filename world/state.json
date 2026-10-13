@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 77,
-  "worldYear": 77,
+  "year": 78,
+  "worldYear": 78,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -18,11 +18,11 @@
   "origin": "forgotten-colony",
   "population": 577,
   "foundingPopulation": 414,
-  "food": 15499,
-  "goods": 6580,
-  "health": 95,
-  "order": 96,
-  "buildings": 27,
+  "food": 15567,
+  "goods": 6660,
+  "health": 100,
+  "order": 100,
+  "buildings": 28,
   "hasWriting": false,
   "extinct": false,
   "naming": {
@@ -141,6 +141,11 @@
         "year": 71,
         "kind": "贸易",
         "name": "港联号"
+      },
+      {
+        "year": 78,
+        "kind": "战争",
+        "name": "夜战盟"
       }
     ]
   },
@@ -168,27 +173,26 @@
     }
   ],
   "politicalStage": "settled",
-  "settlementDepth": 77,
+  "settlementDepth": 78,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 20277,
+  "writingProgress": 20806,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 3712982834,
+  "rngState": 170157302,
   "lastSettlement": {
-    "year": 77,
-    "populationBefore": 589,
+    "year": 78,
+    "populationBefore": 577,
     "populationAfter": 577,
     "eventIds": [
-      "imm-return",
-      "acc-storm",
-      "harvest-drying",
-      "harvest-granary",
-      "plague-lanes",
-      "harvest-drying",
       "fest-hearth",
-      "quarrel-elders"
+      "harvest-drying",
+      "acc-storm",
+      "build-well",
+      "harvest-granary",
+      "quarrel-rations",
+      "fest-tasting"
     ]
   }
 }
