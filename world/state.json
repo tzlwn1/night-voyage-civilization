@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 82,
-  "worldYear": 82,
+  "year": 83,
+  "worldYear": 83,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,13 +16,13 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 566,
+  "population": 567,
   "foundingPopulation": 414,
-  "food": 15606,
-  "goods": 6983,
-  "health": 98,
-  "order": 91,
-  "buildings": 29,
+  "food": 16034,
+  "goods": 7055,
+  "health": 100,
+  "order": 100,
+  "buildings": 30,
   "hasWriting": false,
   "extinct": false,
   "naming": {
@@ -151,53 +151,37 @@
         "year": 81,
         "kind": "贸易",
         "name": "舶来称"
+      },
+      {
+        "year": 83,
+        "kind": "贸易",
+        "name": "舶来称"
       }
     ]
   },
-  "dreamInstitutions": [
-    {
-      "id": "63-人口增长-law",
-      "kind": "law",
-      "tag": "人口增长",
-      "title": "添口律",
-      "enactedYear": 63,
-      "effects": {
-        "foodProductionPermille": 1000,
-        "birthPer10k": 12,
-        "deathPer10k": 0,
-        "orderPerMonth": 0,
-        "healthPerMonth": 0,
-        "goodsPerMonth": 0,
-        "buildEventWeightAdd": 0,
-        "shortageWeightPermille": 1000,
-        "harvestWeightPermille": 1000,
-        "quarrelWeightPermille": 1000,
-        "accidentWeightPermille": 1000,
-        "immigrationWeightPermille": 1000
-      }
-    }
-  ],
+  "dreamInstitutions": [],
   "politicalStage": "settled",
-  "settlementDepth": 82,
+  "settlementDepth": 83,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 22979,
+  "writingProgress": 23536,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 3178724358,
+  "rngState": 1467464639,
   "lastSettlement": {
-    "year": 82,
-    "populationBefore": 559,
-    "populationAfter": 566,
+    "year": 83,
+    "populationBefore": 566,
+    "populationAfter": 567,
     "eventIds": [
-      "quarrel-hearth",
-      "quarrel-hearth",
+      "acc-hull",
+      "imm-craft",
+      "harvest-drying",
       "harvest-second",
-      "imm-boats",
-      "acc-injury",
-      "acc-storm",
-      "imm-kin"
+      "quarrel-elders",
+      "fest-tasting",
+      "build-hall",
+      "harvest-second"
     ]
   }
 }
