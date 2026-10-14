@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 90,
-  "worldYear": 90,
+  "year": 91,
+  "worldYear": 91,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,13 +16,13 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 558,
+  "population": 564,
   "foundingPopulation": 414,
-  "food": 17698,
-  "goods": 7544,
-  "health": 100,
-  "order": 96,
-  "buildings": 34,
+  "food": 18079,
+  "goods": 7614,
+  "health": 98,
+  "order": 94,
+  "buildings": 35,
   "hasWriting": false,
   "extinct": false,
   "naming": {
@@ -166,33 +166,38 @@
         "year": 88,
         "kind": "战争",
         "name": "铁火部"
+      },
+      {
+        "year": 91,
+        "kind": "战争",
+        "name": "锋潮营"
       }
     ]
   },
   "dreamInstitutions": [],
   "politicalStage": "settled",
-  "settlementDepth": 90,
+  "settlementDepth": 91,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 27581,
+  "writingProgress": 28178,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 4269055504,
+  "rngState": 2557795785,
   "lastSettlement": {
-    "year": 90,
-    "populationBefore": 554,
-    "populationAfter": 558,
+    "year": 91,
+    "populationBefore": 558,
+    "populationAfter": 564,
     "eventIds": [
-      "acc-storm",
-      "harvest-second",
-      "fest-quiet",
-      "quarrel-hearth",
-      "harvest-fishing",
-      "build-granary",
-      "build-granary",
       "quarrel-elders",
-      "harvest-granary"
+      "harvest-second",
+      "harvest-second",
+      "harvest-drying",
+      "harvest-fishing",
+      "fest-hearth",
+      "harvest-granary",
+      "build-shed",
+      "quarrel-rations"
     ]
   }
 }
