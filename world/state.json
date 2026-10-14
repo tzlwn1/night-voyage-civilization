@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 92,
-  "worldYear": 92,
+  "year": 93,
+  "worldYear": 93,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,10 +16,10 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 567,
+  "population": 570,
   "foundingPopulation": 414,
-  "food": 18576,
-  "goods": 7686,
+  "food": 18577,
+  "goods": 7758,
   "health": 100,
   "order": 100,
   "buildings": 35,
@@ -171,32 +171,37 @@
         "year": 91,
         "kind": "战争",
         "name": "锋潮营"
+      },
+      {
+        "year": 93,
+        "kind": "战争",
+        "name": "锋潮营"
       }
     ]
   },
   "dreamInstitutions": [],
   "politicalStage": "settled",
-  "settlementDepth": 92,
+  "settlementDepth": 93,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 28781,
+  "writingProgress": 29389,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 1478371736,
+  "rngState": 2230513500,
   "lastSettlement": {
-    "year": 92,
-    "populationBefore": 564,
-    "populationAfter": 567,
+    "year": 93,
+    "populationBefore": 567,
+    "populationAfter": 570,
     "eventIds": [
+      "fest-launch",
+      "quarrel-rations",
       "fest-hearth",
+      "fest-quiet",
+      "acc-storm",
       "harvest-granary",
-      "acc-injury",
-      "harvest-second",
-      "harvest-second",
-      "fest-tasting",
-      "fest-hearth",
-      "harvest-fishing"
+      "harvest-granary",
+      "imm-kin"
     ]
   }
 }
