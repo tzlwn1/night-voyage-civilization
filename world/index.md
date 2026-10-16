@@ -46,8 +46,8 @@
 ## 编年入口
 
 - [仓库首页](../README.md)
-- [第 119 年](../chronicle/civ-001/0119.md)
+- [第 120 年](../chronicle/civ-001/0120.md)
 - [编年目录](../chronicle/civ-001/)
 - 文明总录: （存续中，灭亡后生成 annals.md）
 
-种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 119
+种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 120
