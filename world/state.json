@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 118,
-  "worldYear": 118,
+  "year": 119,
+  "worldYear": 119,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,13 +16,13 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 634,
+  "population": 637,
   "foundingPopulation": 414,
-  "food": 27577,
-  "goods": 9146,
+  "food": 27945,
+  "goods": 9170,
   "health": 100,
   "order": 100,
-  "buildings": 53,
+  "buildings": 55,
   "hasWriting": false,
   "extinct": false,
   "naming": {
@@ -201,6 +201,11 @@
         "year": 118,
         "kind": "贸易",
         "name": "互市号"
+      },
+      {
+        "year": 119,
+        "kind": "贸易",
+        "name": "港联号"
       }
     ]
   },
@@ -228,25 +233,28 @@
     }
   ],
   "politicalStage": "settled",
-  "settlementDepth": 118,
+  "settlementDepth": 119,
   "regimeSinceYear": null,
   "lastDynastyYear": 0,
   "dynastyCooldownUntil": 0,
-  "writingProgress": 45961,
+  "writingProgress": 46671,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 3534482431,
+  "rngState": 1191387042,
   "lastSettlement": {
-    "year": 118,
-    "populationBefore": 632,
-    "populationAfter": 634,
+    "year": 119,
+    "populationBefore": 634,
+    "populationAfter": 637,
     "eventIds": [
-      "harvest-second",
-      "harvest-granary",
+      "build-well",
       "harvest-drying",
+      "acc-hull",
+      "harvest-second",
       "imm-craft",
-      "build-granary",
-      "harvest-second"
+      "build-hall",
+      "harvest-fishing",
+      "imm-return",
+      "harvest-drying"
     ]
   }
 }
