@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 144,
-  "worldYear": 144,
+  "year": 145,
+  "worldYear": 145,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -18,11 +18,11 @@
   "origin": "forgotten-colony",
   "population": 633,
   "foundingPopulation": 414,
-  "food": 29751,
-  "goods": 10149,
-  "health": 96,
+  "food": 29605,
+  "goods": 10165,
+  "health": 100,
   "order": 100,
-  "buildings": 60,
+  "buildings": 61,
   "hasWriting": false,
   "extinct": false,
   "naming": {
@@ -231,33 +231,33 @@
         "year": 135,
         "kind": "贸易",
         "name": "港联号"
+      },
+      {
+        "year": 145,
+        "kind": "战争",
+        "name": "裂塘军"
       }
     ]
   },
   "dreamInstitutions": [],
   "politicalStage": "regime",
-  "settlementDepth": 144,
+  "settlementDepth": 145,
   "regimeSinceYear": 130,
   "lastDynastyYear": 130,
   "dynastyCooldownUntil": 234,
-  "writingProgress": 65407,
+  "writingProgress": 66194,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 1991402697,
+  "rngState": 4007215801,
   "lastSettlement": {
-    "year": 144,
-    "populationBefore": 649,
+    "year": 145,
+    "populationBefore": 633,
     "populationAfter": 633,
     "eventIds": [
+      "quarrel-rations",
       "harvest-granary",
-      "harvest-granary",
-      "harvest-drying",
-      "plague-lanes",
-      "build-shed",
-      "acc-granary",
-      "harvest-second",
-      "harvest-drying",
-      "harvest-second"
+      "build-granary",
+      "harvest-granary"
     ]
   }
 }
