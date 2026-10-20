@@ -55,8 +55,8 @@
 ## 编年入口
 
 - [仓库首页](../README.md)
-- [第 156 年](../chronicle/civ-001/0156.md)
+- [第 157 年](../chronicle/civ-001/0157.md)
 - [编年目录](../chronicle/civ-001/)
 - 文明总录: （存续中，灭亡后生成 annals.md）
 
-种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 156
+种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 157
