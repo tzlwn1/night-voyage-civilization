@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 166,
-  "worldYear": 166,
+  "year": 167,
+  "worldYear": 167,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,10 +16,10 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 640,
+  "population": 639,
   "foundingPopulation": 414,
-  "food": 29940,
-  "goods": 10641,
+  "food": 29986,
+  "goods": 10667,
   "health": 100,
   "order": 100,
   "buildings": 65,
@@ -266,53 +266,36 @@
         "year": 163,
         "kind": "战争",
         "name": "铁火部"
+      },
+      {
+        "year": 167,
+        "kind": "战争",
+        "name": "锋潮营"
       }
     ]
   },
-  "dreamInstitutions": [
-    {
-      "id": "163-争吵-festival",
-      "kind": "festival",
-      "tag": "争吵",
-      "title": "息争夜",
-      "enactedYear": 163,
-      "effects": {
-        "foodProductionPermille": 1000,
-        "birthPer10k": 0,
-        "deathPer10k": 0,
-        "orderPerMonth": 2,
-        "healthPerMonth": 0,
-        "goodsPerMonth": 0,
-        "buildEventWeightAdd": 0,
-        "shortageWeightPermille": 1000,
-        "harvestWeightPermille": 1000,
-        "quarrelWeightPermille": 1000,
-        "accidentWeightPermille": 1000,
-        "immigrationWeightPermille": 1000
-      }
-    }
-  ],
+  "dreamInstitutions": [],
   "politicalStage": "regime",
-  "settlementDepth": 166,
+  "settlementDepth": 167,
   "regimeSinceYear": 130,
   "lastDynastyYear": 130,
   "dynastyCooldownUntil": 234,
-  "writingProgress": 83068,
+  "writingProgress": 83890,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 3822053804,
+  "rngState": 2110794085,
   "lastSettlement": {
-    "year": 166,
-    "populationBefore": 634,
-    "populationAfter": 640,
+    "year": 167,
+    "populationBefore": 640,
+    "populationAfter": 639,
     "eventIds": [
-      "harvest-granary",
+      "harvest-fishing",
       "harvest-drying",
-      "harvest-granary",
-      "imm-boats",
+      "quarrel-rations",
+      "harvest-drying",
       "harvest-second",
+      "acc-hull",
       "harvest-granary",
-      "imm-return",
       "fest-hearth"
     ]
   }
