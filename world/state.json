@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 170,
-  "worldYear": 170,
+  "year": 171,
+  "worldYear": 171,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,13 +16,13 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 644,
+  "population": 629,
   "foundingPopulation": 414,
-  "food": 30417,
-  "goods": 10746,
-  "health": 97,
-  "order": 100,
-  "buildings": 63,
+  "food": 29563,
+  "goods": 10754,
+  "health": 87,
+  "order": 87,
+  "buildings": 65,
   "hasWriting": false,
   "extinct": false,
   "naming": {
@@ -271,28 +271,44 @@
         "year": 167,
         "kind": "战争",
         "name": "锋潮营"
+      },
+      {
+        "year": 171,
+        "kind": "战争",
+        "name": "铁火部"
       }
     ]
   },
   "dreamInstitutions": [],
   "politicalStage": "regime",
-  "settlementDepth": 170,
+  "settlementDepth": 171,
   "regimeSinceYear": 130,
   "lastDynastyYear": 130,
   "dynastyCooldownUntil": 234,
-  "writingProgress": 86367,
+  "writingProgress": 87195,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 3167489234,
+  "rngState": 3855689801,
   "lastSettlement": {
-    "year": 170,
-    "populationBefore": 654,
-    "populationAfter": 644,
+    "year": 171,
+    "populationBefore": 644,
+    "populationAfter": 629,
     "eventIds": [
+      "harvest-granary",
+      "fest-quiet",
+      "harvest-granary",
       "harvest-second",
+      "harvest-granary",
+      "fest-quiet",
+      "imm-kin",
+      "build-granary",
       "plague-fever",
       "harvest-granary",
-      "acc-hull"
+      "plague-fever",
+      "harvest-fishing",
+      "build-granary",
+      "quarrel-rations",
+      "quarrel-hearth"
     ]
   }
 }
