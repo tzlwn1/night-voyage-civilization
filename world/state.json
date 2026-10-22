@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 174,
-  "worldYear": 174,
+  "year": 175,
+  "worldYear": 175,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,11 +16,11 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 638,
+  "population": 629,
   "foundingPopulation": 414,
-  "food": 29762,
-  "goods": 10801,
-  "health": 100,
+  "food": 29973,
+  "goods": 10825,
+  "health": 88,
   "order": 100,
   "buildings": 65,
   "hasWriting": false,
@@ -281,33 +281,44 @@
         "year": 172,
         "kind": "战争",
         "name": "夜战盟"
+      },
+      {
+        "year": 175,
+        "kind": "战争",
+        "name": "裂塘军"
+      },
+      {
+        "year": 175,
+        "kind": "战争",
+        "name": "裂塘军"
       }
     ]
   },
   "dreamInstitutions": [],
   "politicalStage": "regime",
-  "settlementDepth": 174,
+  "settlementDepth": 175,
   "regimeSinceYear": 130,
   "lastDynastyYear": 130,
   "dynastyCooldownUntil": 234,
-  "writingProgress": 89688,
+  "writingProgress": 90521,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 3648713610,
+  "rngState": 1305618221,
   "lastSettlement": {
-    "year": 174,
-    "populationBefore": 639,
-    "populationAfter": 638,
+    "year": 175,
+    "populationBefore": 638,
+    "populationAfter": 629,
     "eventIds": [
-      "harvest-granary",
-      "fest-quiet",
-      "harvest-second",
       "fest-hearth",
-      "acc-fire",
-      "acc-hull",
-      "harvest-drying",
       "acc-storm",
-      "fest-hearth"
+      "plague-cough",
+      "quarrel-rations",
+      "quarrel-rations",
+      "acc-injury",
+      "harvest-granary",
+      "harvest-fishing",
+      "harvest-granary",
+      "plague-fever"
     ]
   }
 }
