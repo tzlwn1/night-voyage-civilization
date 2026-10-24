@@ -3,8 +3,8 @@
   "civId": "civ-001",
   "civSeq": 1,
   "seed": "b6ce2af2224016debeb675a8d7b4f323",
-  "year": 191,
-  "worldYear": 191,
+  "year": 192,
+  "worldYear": 192,
   "civStartWorldYear": 1,
   "phase": "active",
   "falloutRemaining": 0,
@@ -16,12 +16,12 @@
   "geography": "coastal-plain",
   "climate": "arid",
   "origin": "forgotten-colony",
-  "population": 681,
+  "population": 697,
   "foundingPopulation": 414,
-  "food": 30631,
-  "goods": 11212,
+  "food": 31416,
+  "goods": 11250,
   "health": 100,
-  "order": 96,
+  "order": 100,
   "buildings": 65,
   "hasWriting": false,
   "extinct": false,
@@ -311,6 +311,11 @@
         "year": 191,
         "kind": "贸易",
         "name": "潮市名"
+      },
+      {
+        "year": 192,
+        "kind": "战争",
+        "name": "裂塘军"
       }
     ]
   },
@@ -359,30 +364,27 @@
     }
   ],
   "politicalStage": "regime",
-  "settlementDepth": 191,
+  "settlementDepth": 192,
   "regimeSinceYear": 130,
   "lastDynastyYear": 130,
   "dynastyCooldownUntil": 234,
-  "writingProgress": 104074,
+  "writingProgress": 104938,
   "memoryContinuity": 100,
   "politicalStress": 0,
-  "rngState": 2286550370,
+  "rngState": 2406856464,
   "lastSettlement": {
-    "year": 191,
-    "populationBefore": 658,
-    "populationAfter": 681,
+    "year": 192,
+    "populationBefore": 681,
+    "populationAfter": 697,
     "eventIds": [
-      "acc-injury",
-      "imm-craft",
-      "harvest-granary",
-      "imm-refugees",
+      "quarrel-rations",
       "imm-boats",
-      "fest-launch",
-      "fest-launch",
-      "fest-tasting",
+      "harvest-granary",
+      "harvest-drying",
+      "quarrel-hearth",
       "harvest-granary",
       "harvest-second",
-      "quarrel-elders"
+      "fest-hearth"
     ]
   }
 }
