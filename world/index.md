@@ -80,8 +80,8 @@
 ## 编年入口
 
 - [仓库首页](../README.md)
-- [第 207 年](../chronicle/civ-001/0207.md)
+- [第 208 年](../chronicle/civ-001/0208.md)
 - [编年目录](../chronicle/civ-001/)
 - 文明总录: （存续中，灭亡后生成 annals.md）
 
-种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 207
+种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 208
