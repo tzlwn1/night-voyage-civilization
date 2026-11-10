@@ -209,8 +209,8 @@
 ## 编年入口
 
 - [仓库首页](../README.md)
-- [第 361 年](../chronicle/civ-001/0361.md)
+- [第 362 年](../chronicle/civ-001/0362.md)
 - [编年目录](../chronicle/civ-001/)
 - 文明总录: （存续中，灭亡后生成 annals.md）
 
-种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 361
+种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 362
