@@ -234,8 +234,8 @@
 ## 编年入口
 
 - [仓库首页](../README.md)
-- [第 406 年](../chronicle/civ-001/0406.md)
+- [第 407 年](../chronicle/civ-001/0407.md)
 - [编年目录](../chronicle/civ-001/)
 - 文明总录: （存续中，灭亡后生成 annals.md）
 
-种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 406
+种子: b6ce2af2224016debeb675a8d7b4f323 · 世界历 407
